@@ -1,0 +1,74 @@
+.container__card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+    min-width: 270px;
+}
+@media (min-width: 500px){
+    .container__card{
+        width: 360px;
+    }
+}
+
+
+.top-card {
+    background-image: url('./assets/bg-pattern-card.svg');
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.top-card__image {
+    width: 110px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    margin-top: 100px;
+    margin-bottom: -60px;
+}
+
+.middle-card {
+    background-color: #fff;
+    z-index: -1;
+    padding-top: 70px;
+    padding-bottom: 20px;
+}
+
+.middle-card__name {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+
+.middle-card__age {
+    font-size: 18px;
+    color: hsl(0, 0%, 59%);
+    font-weight: 400;
+    margin-left: 10px;
+}
+
+.middle-card__location {
+    font-size: 15px;
+    color: hsl(0, 0%, 59%);
+}
+
+.bottom-card {
+    background-color: #fff;
+    padding: 25px 15px 25px 0;
+    border-top: 1px solid hsla(0, 0%, 59%, 0.3);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 56px;
+}
+
+.bottom-card__quantity {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.bottom-card__label {
+    font-size: 11px;
+    letter-spacing: 1px;
+    color:hsl(0, 0%, 59%);
+}
+
+
