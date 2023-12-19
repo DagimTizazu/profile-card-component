@@ -11,10 +11,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -41,6 +38,15 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 - CSS Grid
 - [React](https://reactjs.org/) - JS library
 - [vite](https://vitejs.dev/) - Build tool
+
+## what-i-learned
+
+alternative code for the circles in the background :
+
+background-color: var(--Dark-cyan);
+background-image: url("./images/bg-pattern-top.svg"), url("./images/bg-pattern-bottom.svg");
+background-repeat: no-repeat, no-repeat;
+background-position: right 52vw bottom 35vh, left 48vw top 52vh;
 
 ## Author
 
